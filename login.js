@@ -35,5 +35,6 @@
         return;
     } else{
         window.location.href= "home.html";
+        window.open("home.html", "_self");
     }
 }
