@@ -17,8 +17,8 @@
     
 
     function login(){
-        let LoginUser = document.getElementById("Lusername").value;
-        let loginPass = document.getElementById("Lpassword").value;
+        let LoginUser = document.getElementById("username").value;
+        let loginPass = document.getElementById("password").value;
 
         let storedUName = "admin123";
         //localStorage.getItem("admin123");
