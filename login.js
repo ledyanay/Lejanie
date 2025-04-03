@@ -34,8 +34,6 @@
         },10000)
         return;
     } else{
-        alert("Login successful!");
         window.location.href= "home.html";
-        
     }
 }
