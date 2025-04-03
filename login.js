@@ -36,6 +36,6 @@
     } else{
         alert("Login successful!");
         window.location.href= "home.html";
-        window.open("home.html", "_blank"); 
+        
     }
 }
