@@ -1,4 +1,4 @@
-    function SignUp(){
+   /* function SignUp(){
         let uname = document.getElementById("username").value;
         let pass = document.getElementById("password").value;
 
@@ -9,18 +9,21 @@
     
         localStorage.setItem("uName", uname);
         localStorage.setItem("pass", pass);
-    
-        window.open("login.html", "_blank");  
-    }
 
+        window.location.href= "home.html";
+        window.open("home.html", "_blank");   
+    }
+*/
     
 
     function login(){
         let LoginUser = document.getElementById("Lusername").value;
         let loginPass = document.getElementById("Lpassword").value;
 
-        let storedUName = localStorage.getItem("admin123");
-        let storedPass = localStorage.getItem("admin123");
+        let storedUName = "admin123";
+        //localStorage.getItem("admin123");
+        let storedPass = "admin123";
+        //localStorage.getItem("admin123");
 
         if ((LoginUser !== storedUName && LoginUser !== storedEmail) || loginPass !== storedPass) {
             alert("Wrong email/username or password.");
